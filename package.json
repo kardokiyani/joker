@@ -1,0 +1,22 @@
+{
+  "name": "joker",
+  "version": "0.0.1",
+  "description": "Application that tells jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kardokiyani/joker.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Kardo Kiyani kardo1998@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kardokiyani/joker/issues"
+  },
+  "homepage": "https://github.com/kardokiyani/joker#readme"
+}
