@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "kardokiyani-package",
   "version": "0.1.0",
   "description": "Application that tells jokes",
   "main": "index.js",
