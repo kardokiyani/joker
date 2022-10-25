@@ -1,12 +1,14 @@
 {
   "name": "kardokiyani-joker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Application that tells jokes",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/kardokiyani/joker#readme",
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.7.1"
   },
   "dependencies": {
